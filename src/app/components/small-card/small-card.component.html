@@ -1,11 +1,10 @@
 <div class="container__small-card">
   <div class="small-card__image">
-    <img
-      src="https://jonathansexton.me/blog/wp-content/uploads/2019/10/image-1.png"
-      alt="Imagem relacionada ao artigo"
-    />
+    <img src="{{ photoCover }}" alt="Imagem relacionada ao artigo" />
   </div>
   <div class="small-card__title">
-    <h2>Learn TypeScript Data Types – From Zero to Hero</h2>
+    <h2>
+      <a [routerLink]="['content', Id]">{{ cardTitle }}</a>
+    </h2>
   </div>
 </div>

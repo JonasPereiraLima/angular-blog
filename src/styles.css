@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #111;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
@@ -14,4 +13,8 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+body {
+  background-color: #111;
 }

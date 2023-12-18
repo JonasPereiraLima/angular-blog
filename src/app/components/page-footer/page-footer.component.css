@@ -1,0 +1,33 @@
+.container__footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(34, 34, 34, 1) 100%
+  );
+  align-items: center;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+a {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+a:hover {
+  color: #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer__links > ul {
+  display: flex;
+  gap: 1rem;
+}

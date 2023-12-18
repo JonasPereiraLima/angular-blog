@@ -1,6 +1,8 @@
 .container__menu-bar {
   padding: 2rem;
   border-bottom: 1px solid #aaa;
+  display: flex;
+  justify-content: space-around;
 }
 
 .container__menu-bar > ul {

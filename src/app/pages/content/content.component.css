@@ -1,0 +1,21 @@
+.container__content {
+  width: 80vw;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #00000009;
+}
+
+.content__cover {
+  max-width: 668px;
+  margin: 0 auto;
+}
+
+.content__cover > img {
+  width: 100%;
+  border: 3px solid #999;
+  margin: 0 auto;
+}
+
+.content__title {
+  margin: 2rem 0;
+}
