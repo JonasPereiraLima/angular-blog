@@ -1,0 +1,15 @@
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 3rem;
+  align-items: flex-start;
+}
+
+.articles__main {
+  width: 40%;
+}
+
+.articles__others {
+  width: 50%;
+}

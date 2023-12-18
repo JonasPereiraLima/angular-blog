@@ -1,0 +1,19 @@
+.container__big-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  justify-content: flex-start;
+}
+
+.big-card__image > img {
+  width: 100%;
+}
+
+.big-card__title > h2 {
+  font-size: 20px;
+  margin-top: 0.3rem;
+}
+
+.big-card__description > p {
+  color: #777;
+}

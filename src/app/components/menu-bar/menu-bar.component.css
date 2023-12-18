@@ -1,0 +1,9 @@
+.container__menu-bar {
+  padding: 2rem;
+  border-bottom: 1px solid #aaa;
+}
+
+.container__menu-bar > ul {
+  display: flex;
+  gap: 2rem;
+}

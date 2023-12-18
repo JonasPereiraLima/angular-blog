@@ -1,0 +1,16 @@
+.container__small-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.small-card__image {
+  width: 45%;
+}
+
+.small-card__image > img {
+  width: 100%;
+}
